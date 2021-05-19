@@ -1,0 +1,806 @@
+html {
+  max-width: 1750px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+}
+
+body {
+  background: #EAEAEA;
+}
+
+.fix {
+  max-width: 1750px;
+	position: fixed;
+  margin-left: auto;
+	margin-right: auto;
+  border-bottom: 1px solid #B7A178;
+  box-shadow: 0 1px 5px #B7A178;
+  right: 0;
+	left: 0;
+  z-index: 4;
+}
+
+.menu {
+  display: flex;
+  background: linear-gradient(to top, #000, #303030);
+}
+
+.telef {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 7px 0 0 0;
+  color: #fff;
+}
+
+.telef_img {
+  margin: 15px 10px 0 0;
+}
+
+.email {
+  font-size: 16px;
+  font-weight: 400;
+  background: linear-gradient(to top, #C9A869, #FFE37E);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.email:hover {
+  background: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.email_img {
+  margin: 15px 10px 0 35px;
+}
+
+ul, li {
+	display: block;
+}
+
+.inform {
+  display: flex;
+}
+
+.menu_buttons {
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+.menu_item {
+  font-size: 14px;
+	color: #c0c0c0;
+  padding: 0 15px 2px 15px;
+}
+
+.icon1 {
+  margin: 170px 0 10px 0;
+}
+
+.icon1 img {
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+}
+
+.icon1 img:hover {
+  -moz-transform: scale(1.2);
+  -o-transform:scale(1.2);
+  -webkit-transform: scale(1.2);
+}
+
+.icon1_border {
+  height: 210px;
+  width: 230px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 50px #fff;
+}
+
+.title1 {
+  font-size: 85px;
+  font-weight: 100;
+  color: #fff;
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+}
+
+.title2 {
+  font-size: 50px;
+  font-weight: 400;
+  margin-right: 50px;
+  background: no-repeat url(../img/fonts-bkg.png) fixed top/cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@-moz-document url-prefix() {
+  .title2 {
+    background: no-repeat url(../img/fonts-bkg.png);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.title3 {
+  font-size: 35px;
+  font-weight: 100;
+  background: no-repeat url(../img/fonts-bkg.png) fixed top/cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 50px;
+  margin-bottom: 200px;
+}
+
+@-moz-document url-prefix() {
+  .title3 {
+    background: no-repeat url(../img/fonts-bkg.png);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.nums {
+  max-width: 1750px;
+  background: linear-gradient(to top, #686868, #848484);
+  padding: 40px 0 40px 0;
+}
+
+.nums:hover {
+  background: linear-gradient(to top, #848484, #686868);
+}
+
+.num {
+  color: #fff;
+  font-size: 50px;
+}
+
+.num_text1 {
+  font-size: 18px;
+  font-weight: bolder;
+  background: no-repeat url(../img/fonts-bkg.png) fixed top/cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@-moz-document url-prefix() {
+  .num_text1 {
+    background: no-repeat url(../img/fonts-bkg.png);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.num_text2 {
+  color: #d8d8d8;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+
+
+
+/*Технологии*/
+
+.technologies {
+  padding: 150px 0 150px 0;
+  background: #A7A7A7;
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.3);
+}
+
+.tech_icons {
+  height: 70px;
+}
+
+.icons_size {
+  height: 70px;
+}
+
+.icons_size img {
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+}
+
+.icons_size img:hover {
+  -moz-transform: scale(2);
+  -o-transform:scale(2);
+  -webkit-transform: scale(2);
+}
+
+.tech_txt {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+  background: no-repeat url(../img/fonts-bkg.png) fixed top/cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@-moz-document url-prefix() {
+  .tech_txt {
+    background: no-repeat url(../img/fonts-bkg.png);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.title_technologies {
+  font-size: 90px;
+  text-align: center;
+  font-weight: 100;
+  background: no-repeat url(../img/fonts-bkg.png) fixed top/cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 40px 120px 60px 120px;
+}
+
+@-moz-document url-prefix() {
+  .title_technologies {
+    background: no-repeat url(../img/fonts-bkg.png);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.border_img {
+  border: double 1px transparent;
+  border-radius: 50%;
+  background-image: linear-gradient(#868686, #EAEAEA), radial-gradient(circle at top left, #C9A869, #FFE37E);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  padding: 7px 0 7px 0;
+}
+
+.border_img:hover {
+  background-image: linear-gradient(#EAEAEA, #868686), radial-gradient(circle at top left, #FFE37E, #C9A869);
+  box-shadow: 0 6px 18px rgba(255, 255, 255, 0.25);
+}
+
+.horizontal {
+  margin: 0 220px 0 0;
+}
+
+.hor_pos {
+  margin-right: 60px;
+}
+
+.vertical {
+  margin: 70px 20px 0 20px;
+}
+
+
+
+/*Кратко обо мне*/
+
+.aboutMe_photo {
+  display: flex;
+  margin-top: 180px;
+}
+
+.my_photo {
+  position: relative;
+}
+
+.photo1 {
+  position: absolute;
+  border: 1px solid #fff;
+  transform: rotate(-2deg);
+  z-index: 3
+}
+
+.my_photo1 {
+  position: absolute;
+  height: 300px;
+}
+
+.my_photo1 img {
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+}
+
+.my_photo1 img:hover {
+  -moz-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+}
+
+.photo2 {
+  position: absolute;
+  margin: 5px 0 0 12px;
+  opacity: 70%;
+  border: 1px solid #fff;
+  transform: rotate(2deg);
+  z-index: 2;
+}
+
+.photo3 {
+  position: absolute;
+  margin: 10px 0 0 22px;
+  opacity: 60%;
+  border: 1px solid #fff;
+  transform: rotate(6deg);
+  z-index: 1;
+}
+
+.bkg_about {
+  background: no-repeat url(../img/bkg1.png) right;
+}
+
+.title {
+  font-size: 90px;
+  font-weight: 600;
+  background: no-repeat url(../img/fonts-bkg.png) fixed top/cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: -40px 0 0 70px;
+}
+
+@-moz-document url-prefix() {
+  .title {
+    background: no-repeat url(../img/fonts-bkg.png);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.text {
+  font-size: 16px;
+  font-weight: 100;
+  margin-top: 50px;
+  margin-bottom: 120px;
+}
+
+.text_border {
+  padding: 20px 40px 20px 40px;
+  border: 1px solid #fff;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.text_border:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.edu_info {
+  margin-top: 80px;
+}
+
+.text_edu {
+  display: none;
+}
+
+.education {
+  display: flex;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.text_edu:checked~.education {
+  max-height: 150px;
+}
+
+.view::before {
+  content: "";
+  position: absolute;
+  left: 310px;
+  top: 28px;
+
+}
+
+@keyframes glowing_view {
+  0% {
+    border: 18px solid red;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+  }
+  50% {
+    border: 18px solid #FFD9D9;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+  }
+  100% {
+    border: 18px solid red;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+  }
+}
+
+.view::before {
+  animation: glowing_view 1300ms infinite;
+}
+
+.text_edu:checked~.view::before {
+  transform: rotate(180deg) translateY(6px);
+  animation: glowing_view 1300ms infinite;
+}
+
+.view {
+  display: block;
+  position: relative;
+  margin-bottom: 30px;
+  user-select: none;
+  font-size: 40px;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.span_edu {
+  border-bottom: 1px solid red;
+}
+
+.icon2 {
+  margin: 30px 0 0 40px;
+  height: 55px;
+}
+
+.job_edu {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.edu_num {
+  background: #000;
+  font-size: 24px;
+  color: #fff;
+  border-radius: 50%;
+  padding: 0 12px 3px 12px;
+  margin-right: 20px;
+}
+
+.edu_num_scd {
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+.text_job {
+  display: none;
+}
+
+.job {
+  display: flex;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.text_job:checked~.job {
+  max-height: 300px;
+}
+
+.view_job::before {
+  content: "";
+  position: absolute;
+  right: 300px;
+  top: 28px;
+}
+
+@keyframes glowing_job {
+  0% {
+    border: 18px solid red;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+  }
+  50% {
+    border: 18px solid #FFD9D9;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+  }
+  100% {
+    border: 18px solid red;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+  }
+}
+
+.view_job::before {
+  animation: glowing_job 1700ms infinite;
+}
+
+
+.text_job:checked~.view_job::before {
+  transform: rotate(180deg) translateY(6px);
+  animation: glowing_job 1700ms infinite;
+}
+
+.view_job {
+  display: block;
+  position: relative;
+  margin-bottom: 30px;
+  user-select: none;
+  font-size: 40px;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.span_job {
+  border-bottom: 1px solid red;
+}
+
+.icon3 {
+  margin: 70px 45px 0 0;
+  height: 110px;
+}
+
+.job_num {
+  background: #000;
+  font-size: 24px;
+  color: #fff;
+  border-radius: 50%;
+  padding: 0 12px 3px 12px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.job_num_fst {
+  margin-left: 120px;
+}
+.job_num_scd {
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+.job_num_trd {
+  margin-top: 20px;
+}
+
+.dop_infa {
+  margin-top: 90px;
+  font-size: 40px;
+  font-weight: 400;
+  background: no-repeat url(../img/fonts-bkg.png) fixed top/cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@-moz-document url-prefix() {
+  .dop_infa {
+    background: no-repeat url(../img/fonts-bkg.png);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.my_infa {
+  font-size: 16px;
+  font-weight: 100;
+  padding: 20px 40px 20px 40px;
+  border: 1px solid #fff;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.my_infa:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+
+
+/*Портфолио*/
+
+.portf_title_img {
+  margin-top: 40px;
+  background: no-repeat url(../img/bkg2.png) right;
+}
+
+.portfolio_title {
+  font-size: 100px;
+  font-weight: 600;
+  background: no-repeat url(../img/fonts-bkg.png) fixed top/cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 160px;
+  margin-bottom: 40px;
+}
+
+@-moz-document url-prefix() {
+  .portfolio_title {
+    font-size: 90px;
+    background: no-repeat url(../img/fonts-bkg.png);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.portfolio_border {
+  border: 1px solid #fff;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+  padding-bottom: 40px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.portfolio_border:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.portfolio_text {
+  font-size: 18px;
+  font-weight: 700;
+  background: no-repeat url(../img/fonts-bkg.png) fixed top/cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 35px;
+}
+
+@-moz-document url-prefix() {
+  .portfolio_text {
+    background: no-repeat url(../img/fonts-bkg.png);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.span_portf {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.site_btn {
+  background: #c4c4c4;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 6px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+  border: none;
+  padding: 2px 25px 4px 25px;
+}
+.site_btn:hover {
+  text-decoration: none;
+  color: #fff;
+  background: red;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
+
+.site_btn2 {
+  background: #fff;
+  text-decoration: none;
+  color: #000;
+  border-radius: 6px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+  padding: 2px 17px 4px 17px;
+}
+
+.site_btn2:hover {
+  text-decoration: none;
+  color: #000;
+  background: rgba(255, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+}
+
+.btn_margin {
+  margin-bottom: 15px;
+}
+
+.img_bkg{
+  position: relative;
+}
+
+.margin_txt {
+  text-align: center;
+}
+
+.details {
+  position: absolute;
+  height: 220px;
+  width: 290px;
+  background: gray;
+  margin-left: 25px;
+  z-index: 2;
+}
+
+.details_title {
+  margin: 90px 0 0 80px;
+  position: absolute;
+  font-size: 18px;
+  border: 1px solid #fff;
+  padding: 5px 20px 7px 20px;
+  color: #fff;
+  z-index: 3;
+}
+
+.portfolio_img {
+  position: absolute;
+  height: 220px;
+  width: 290px;
+  margin-left: 25px;
+}
+
+.pos_name_rel {
+  margin-top: 310px;
+  text-align: center;
+}
+
+
+
+
+/*Контакты*/
+
+.contacts {
+  margin-top: 180px;
+  max-width: 1750px;
+  background: linear-gradient(to top, #4F4F4F, #686868);
+}
+
+.contacts_title {
+  font-size: 60px;
+  font-weight: 900;
+  background: no-repeat url(../img/fonts-bkg.png) fixed top/cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+@-moz-document url-prefix() {
+  .contacts_title {
+    background: no-repeat url(../img/fonts-bkg.png);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.telef_img_cont {
+  margin-left: 35px;
+}
+
+.email2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 10px ;
+}
+
+.email_img2 {
+  margin: 15px 10px 0 35px;
+}
+
+.adress {
+  color: #fff;
+  margin-left: 15px;
+  margin-top: 100px;
+}
+
+.map {
+  padding: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  background: no-repeat url(../img/fonts-bkg.png) fixed top/cover;
+}
+
+
+/*Подвал*/
+
+.footer {
+  height: 120px;
+  background: linear-gradient(to bottom, #000, #303030);
+}
+
+.text_position {
+  display: flex;
+}
+
+.footer_text1 {
+  display: flex;
+  color: #777777;
+  text-align: left;
+  font-style: italic;
+  font-size: 13px;
+}
+
+.footer_text2 {
+  color: #777777;
+  text-align: right;
+  font-style: italic;
+  font-size: 13px;
+}
