@@ -696,12 +696,13 @@ ul, li {
   height: 220px;
   width: 290px;
   background: gray;
-  margin-left: 25px;
+  left:50%;
+  margin-left: -145px;
   z-index: 2;
 }
 
 .details_title {
-  margin: 90px 0 0 80px;
+  margin: 90px 0 0 170px;
   position: absolute;
   font-size: 18px;
   border: 1px solid #fff;
@@ -714,7 +715,8 @@ ul, li {
   position: absolute;
   height: 220px;
   width: 290px;
-  margin-left: 25px;
+  left:50%;
+  margin-left: -145px;
 }
 
 .pos_name_rel {

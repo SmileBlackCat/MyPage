@@ -282,7 +282,30 @@
         <div class = "row">
           <div class = "col-lg-12">
             <div class = "d-flex">
-              <div class = "col-lg-4 portfolio_border">
+              <div class = "col-lg-6 portfolio_border">
+                <div class = "img_bkg">
+                  <div class = "margin_txt">
+                    <p class = "portfolio_text">Верстка по макету</p>
+                    <p class = span_portf>Пример верстки по готовому макету<br>HTML, CSS, JavaScript</p>
+                  </div>
+                  <div onmouseover = "mouseOverPortf4()" onmouseout = "mouseOutPortf4()">
+                    <div class = "">
+                      <a  href = "https://smileblackcat.github.io/LeagueOfAngels/" target = "_blank">
+                        <p id = "details4_title" class = "details_title">Перейти на сайт</p>
+                        <div id = "details4" class = "details"></div>
+                      </a>
+                    </div>
+                  </div>
+                  <img alt = "" class = "portfolio_img" src = "img/site4.jpg">
+                </div>
+                <div class = "pos_name_rel">
+                  <div class =  "btn_margin">
+                    <a class = "site_btn" href = "https://smileblackcat.github.io/LeagueOfAngels/" target = "_blank">Посмотреть</a><br>
+                  </div>
+                  <a class = "site_btn2" href = "https://github.com/SmileBlackCat/LeagueOfAngels" target = "_blank">Код на GitHub</a>
+                </div>
+              </div>
+              <div class = "col-lg-6 portfolio_border">
                 <div class = "img_bkg">
                   <div class = "margin_txt">
                     <p class = "portfolio_text">Cайт туроператора</p>
@@ -300,7 +323,14 @@
                   <a class = "site_btn" href = "https://smileblackcat.github.io/Site-design/">Посмотреть</a>
                 </div>
               </div>
-              <div class = "col-lg-4 portfolio_border">
+            </div>
+          </div>
+        </div>
+
+        <div class = "row">
+          <div class = "col-lg-12">
+            <div class = "d-flex">
+              <div class = "col-lg-6 portfolio_border">
                 <div class = "img_bkg">
                   <div class = "margin_txt">
                     <p class = "portfolio_text">Игра "Лопни шарики"</p>
@@ -323,7 +353,7 @@
                   <a class = "site_btn2" href = "https://github.com/SmileBlackCat/BallsMiniGame" target = "_blank">Код на GitHub</a>
                 </div>
               </div>
-              <div class = "col-lg-4 portfolio_border">
+              <div class = "col-lg-6 portfolio_border">
                 <div class = "img_bkg">
                   <div class = "margin_txt">
                     <p class = "portfolio_text">Пример дизайна и верстки сайта</p>
@@ -354,19 +384,27 @@
     var detailsTitle1 = document.getElementById("details1_title");
     var detailsTitle2 = document.getElementById("details2_title");
     var detailsTitle3 = document.getElementById("details3_title");
+    var detailsTitle4 = document.getElementById("details4_title");
+
 
     var details1 = document.getElementById("details1");
     var details2 = document.getElementById("details2");
     var details3 = document.getElementById("details3");
+    var details4 = document.getElementById("details4");
+
 
 
     detailsTitle1.style.opacity = "0%";
     detailsTitle2.style.opacity = "0%";
     detailsTitle3.style.opacity = "0%";
+    detailsTitle4.style.opacity = "0%";
+
 
     details1.style.opacity = "0%";
     details2.style.opacity = "0%";
     details3.style.opacity = "0%";
+    details4.style.opacity = "0%";
+
 
     function mouseOverPortf1()
     {
@@ -382,6 +420,11 @@
     {
       detailsTitle3.style.opacity = "100%";
       details3.style.opacity = "90%";
+    }
+    function mouseOverPortf4()
+    {
+      detailsTitle4.style.opacity = "100%";
+      details4.style.opacity = "90%";
     }
 
 
@@ -399,6 +442,11 @@
     {
       detailsTitle3.style.opacity = "0%";
       details3.style.opacity = "0%";
+    }
+    function mouseOutPortf4()
+    {
+      detailsTitle4.style.opacity = "0%";
+      details4.style.opacity = "0%";
     }
     </script>
 
